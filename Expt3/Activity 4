@@ -1,0 +1,13 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Thu Mar 26 2026
+@author: Pranali Gole
+"""
+f de total_stairs(n):
+    if n == 0:
+        return 0
+    return n + total_stairs(n - 1)
+
+steps = int(input("Enter number of steps: "))
+
+print("Total stairs climbed:", total_stairs(steps))
