@@ -1,0 +1,17 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Thu Mar 26 2026
+@author: Pranali Gole
+"""
+# Taking input from user
+
+name = input("Enter your name: ")
+address = input("Enter your address: ")
+contact = input("Enter your contact number: ")
+
+# Displaying output
+
+print("\n--- Your Details ---")
+print("Name:", name)
+print("Address:", address)
+print("Contact Number:", contact)
