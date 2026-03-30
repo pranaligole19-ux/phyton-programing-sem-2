@@ -1,0 +1,17 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Thu Mar 26 2026
+@author: Pranali Gole
+"""def calculate_emi(p, r, t):
+    r = r / (12 * 100)
+    t = t * 12
+    emi = (p * r * (1 + r)**t) / ((1 + r)**t - 1)
+    return emi
+
+p = float(input("Enter loan amount: "))
+r = float(input("Enter annual interest rate: "))
+t = float(input("Enter time (years): "))
+
+emi = calculate_emi(p, r, t)
+
+print("Monthly EMI is:", emi)
