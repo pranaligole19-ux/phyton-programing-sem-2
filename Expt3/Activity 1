@@ -1,0 +1,10 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Thu Mar 26 2026
+@author: Pranali Gole
+"""copies = int(input("Enter number of receipts: "))
+
+for i in range(1, copies + 1):
+    print("\nReceipt", i)
+    for j in range(1, 6):
+        print("Item", j)
