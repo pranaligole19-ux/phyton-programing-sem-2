@@ -1,0 +1,16 @@
+
+  # -*- coding: utf-8 -*-
+"""
+Created on Thu Mar 26 2026
+@author: Pranali Gole
+"""
+year = int(input("Enter year: "))
+    
+    if (year % 400 == 0) or (year % 4 == 0 and year % 100 != 0):
+        print("Leap Year")
+    else:
+        print("Not a Leap Year")
+
+Run the program
+check_leap_year()
+Do you want the factorial program (Program 2) as well? 🤔
