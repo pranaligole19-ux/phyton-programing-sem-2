@@ -1,0 +1,11 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Thu Mar 26 2026
+@author: Pranali Gole
+"""
+age = int(input("Enter age: "))
+
+if age >= 18:
+    print("Allowed to enter.")
+else:
+    print("Not allowed.")
